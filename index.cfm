@@ -76,11 +76,11 @@
 <cfset viewDays = DateDiff("d",firstDay,lastDay)+1>
     
   <nav class="nav">
-      <cfinclude template="/timesheet/header.cfm">
+      <cfinclude template="/path.to/header.cfm">
   </nav>
   <div class="left">
     <div class="left-extra">
-    <cfinclude template="/timesheet/left.cfm">
+    <cfinclude template=/"path.to/left.cfm">
     </div>
   </div>
   <div class="right">
@@ -116,7 +116,7 @@
     
     </div>
     <div class="time container-fluid">
-      <cfinclude template="/timesheet/days.cfm">
+      <cfinclude template="/path.to/days.cfm">
     </div>
   <div class="disable"></div>
   <span class="startDate hidden" data-start="<cfoutput>#HTMLEditFormat(DateFormat(url.date,"yymmdd"))#</cfoutput>"></span>
