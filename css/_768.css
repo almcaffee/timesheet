@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:768px) {
+	nav {
+		background: #515759 !important;
+	}
+	a { text-decoration: none !important;
+	}
+	.alert div .total, .alert div .displayfield {
+		display: inline-block;
+		text-align: right;
+		width: 100px;
+		min-width: 100px !important;
+		margin-left: 20px;
+		font-weight: bold;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-radius: 0px;
+		background: none !important;
+		-webkit-box-shadow: none; 
+		 box-shadow: none; 
+		-webkit-transition: none;
+		-o-transition: none;
+		transition: none;
+	}
+	#calendar-form {
+		padding-top: 25px;
+	}
+	#calendar {
+		margin: 20px !important;
+	}
+	.day {
+		padding: 8px;
+	}
+	.dayDay {
+		border-bottom: 1px solid #5d8794;
+		width: 92%;
+		padding: 0px;
+		margin: 4% !important;
+		background: transparent; 
+		display: none;
+	}
+	.dayForm {
+		position: relative;
+		top: 25%;
+		left: 25%;
+		width: 50% !important;
+		padding: 0px 9px 9px 9px !important;
+		border: 1px solid #5d8794 !important;
+		border-radius: 6px;
+		background: #fff;
+	}
+	.dayForm .form-label {
+		color: #515759;
+		padding: 9px !important;
+	}
+	.dayForm .form-label-row {
+		display: block;
+		margin: 0 -9px 9px -9px;
+		background: #aec3c9 !important;
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+		color: #515759;
+		padding: 0px !important;
+		font-weight: bold;
+	}
+	.dayForm .form-control {
+		max-width: Calc(100% - 16px);
+	}
+	
+	.dayForm .form-control, .time-input, .type-select {
+		display: block;
+		width: 100%;
+		font-weight: bold;
+		line-height: 1.42857143;
+		color: #5d8794;
+	}
+	.innerDay {
+	
+	}
+	.innerDay {
+		background: transparent;
+		color: #000 !important;
+	}
+	.innerDay {
+		clear: both;
+	}
+	.innerDate, .innerTime {
+		/*float: left;*/
+		display: block;
+	}
+	.innerDay .box span:nth-of-type(even) {
+		text-align: right;
+	}
+	.innerDay .box span:nth-of-type(odd) {
+		text-align: left;
+	}
+	.innerDay div {
+		max-height: 50px;
+		margin:  0px;
+		padding: 5px 6px;
+		text-align: left;
+	}
+	.innerDay div span:first-child {
+		width: 100px;
+	}
+	.innerDay span, .innerDay div span {
+		display: inline-block;
+	}
+	.innerDay span {
+		
+	}
+	.innerDay div span {
+		text-align: left;
+	}
+	.innerTime, .type-select {
+		margin: 0px;
+		border: 0px;
+		border-radius: 0px !important;
+	}
+	.left-extra {
+		border-right-color: transparent !important;
+		
+	}
+	.mobile-next {
+		border-bottom: 1px solid #ddd;
+		background: #dddddd; /* Old browsers */
+		background: -moz-linear-gradient(bottom, #dddddd 0%, #f4f5f5 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(bottom, #dddddd 0%,#f4f5f5 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to top, #dddddd 0%,#f4f5f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f5f5', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+	}
+	.mobile-next .previous-day, .mobile-next .next-day {
+		margin: 0px;
+		padding: 8px;
+		height: 40px;
+		min-height: 40px;
+		color: #aec3c9;
+	}
+	.mobile-next .dayDate {
+		font-weight: bold;
+		color: #5d8794;
+		margin: 0px;
+		padding: 8px;
+		height: 40px;
+		min-height: 40px;
+		text-align: center;
+	}
+	.mobile-next .previous-day-gray, .mobile-next .next-day-gray {
+		color: #ddd;
+	}
+	.mobile-calendar {
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		border-bottom: 1px solid #eeeeee;
+		display: none;
+		
+	}
+	.mobile-calendar a, .mobile-calendar span  {
+		display: inline-block;
+		min-width: 13%;
+		text-align: center;
+		padding: 5px 0px;
+		margin: 0px -2px !important;
+		
+	}
+	.mobile-calendar span  {
+		color: #aec3c9;
+	}
+	.mobile-calendar a  {
+		color: #777 !important;
+	}
+	
+	.mobile-calendar a:hover {
+		font-weight: bold;
+	}
+	.mobile-calendar .selected-day {
+		background: #ddd;
+		font-weight: bold;
+	}
+	.mobile-calendar a:nth-of-type(even) {
+		background: #f2f3f3;
+	}
+	
+	.mobile-calendar a:nth-of-type(odd) {
+		background: #feeef6;
+		
+	}
+	.mobile-calendar .week {
+		text-align: center;
+	}
+	.outerDay, .outerDayGrey, .innerDayGrey {
+		color: #aec3c9 !important;
+	}
+	.outerDay {
+		padding: 0px;
+		height: 1px !important;
+		background: transparent !important;
+	}
+	.outerDayGrey {
+		background: #e9e6e6 !important;
+	}
+	.outerDay, .innerDay {
+		color: #000;
+	}
+	table {
+		font-size: .7em;
+		/*width: auto !important;*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.time-input {
+		background: #fff url('/timesheet/input-bg3.png') center center no-repeat;
+	}
+	.time-input, .type-select {
+		min-height: 35px;
+		font-size: 14px;
+		border: 0px transparent !important;
+	}
+	.type-select {
+		background: #f4f5f5 !important;
+		border: 1px solid #aec3c9 !important;
+		margin-top: 20px;
+	}
+	
+	.week {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+}

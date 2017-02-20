@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (min-width:769px) {
+	.alert div .total, .alert div .displayfield {
+		height: 20px;
+	}
+	#calendar input, #calendar select, #calendar-form input {
+		width: 100%;
+	}
+	.dayForm .row {
+		margin: 5px;
+	}
+	.dayForm label {
+		font-size: .85em;
+		font-weight: normal;
+		color: #5d8794;
+		padding: 0px;
+		margin: 0px;
+	}
+	.dayForm-selected {
+		border: 1px dotted #ccc !important;
+		background: #fff;
+		border-radius: 3px;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+		-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+		-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	}
+	.dayForm-selected label, .dayForm-selected .form-control {
+		color: #000 !important;
+	}
+	.dayForm-selected .form-control {
+		background-color: #fff !important;
+		background-image: none;
+	}
+	.dayForm input {
+		background: #fff url('/timesheet/input-bg.png') center center no-repeat;
+	}
+	.dayForm select {
+		background: #fff url('/timesheet/input-bg2.png') center center no-repeat;
+	}
+	.innerDay .day {
+		display: block;
+		text-align: center !important;
+	}
+	.innerDay .box {
+		display: block;
+		width: 100%;
+		max-height: 12.5px;
+		margin:  0px;
+		padding: 2px 5px;
+		display: none;
+	}
+	.innerDay .box span {
+		font-size: .9em;
+		display: inline-block;
+		width: 48%;
+	}
+	.innerDay .box span:nth-of-type(even) {
+		text-align: right;
+	}
+	.innerDay .box span:nth-of-type(odd) {
+		text-align: left;
+	}
+	.innerTime, .type-select {
+		margin: 0px !important;
+		border: 0px;
+		border-radius: 0px !important;
+	}
+	.innerTime {
+		background: #fee2e2;
+	}
+	
+	.time-input {
+		margin: 0px !important;
+		border-top: 1px solid #ddd;
+		border-bottom: none;
+		border-right: none;
+		border-left: none;
+		border-radius: 0px !important;
+		background: #fff url('/img/type-input.png') center center no-repeat;
+		
+	}
+	.type-select {
+		background: #ddd;
+	}
+	.time-input, .type-select {
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+		-webkit-transition: none !important;
+		-o-transition: none !important;
+		transition: none !important;
+	}
+	.dayDay, .dayView, .outerDay, .innerDay, .dayViewGrey, .outerDayGrey, .innerDayGrey {
+		display: inline-block;
+	}
+	.dayDay {
+		float: left;
+		width: 14%;
+	}
+	.dayDay, .dayViewGrey {
+		border: 1px solid transparent;
+	}
+	.dayDay:hover {
+		border: 1px solid #5d8794;
+	}
+	.dayDay:hover .outerDay, .dayDayhover .outerDay {
+		background: #5d8794 !important;
+		color: #fff !important;
+	}
+	.dayDay:hover .innerDay, .dayDayhover .innerDay {
+		background: #fff !important;
+		color: #555 !important;
+	}
+	.dayDayhover:hover {
+		border-color: transparent !important;
+	}
+	.dayForm .form-control, .time-input, .type-select {
+		display: block;
+		width: 100%;
+		height: 20px;
+		padding: 3px 6px;
+		font-size: .7em;
+		font-weight: bold;
+		line-height: 1.42857143;
+		color: #5d8794;/*border: 1px solid #ccc;
+			border-radius: 4px;
+			-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+			box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+			-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+			-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+			transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;*/
+	}
+	.innerDay {
+		min-height: 50px !important;
+		max-height: 50px;
+		overflow: hidden;
+	}
+	.mobile-next, .mobile-calendar {
+		display: none;
+		vertical-align: middle;
+	}
+	.outerDay, .outerDayGrey, .innerDayGrey {
+		color: #aec3c9 !important;
+	}
+	.outerDay {
+		background: #aec3c9 !important;
+		color: #000 !important;
+	}
+	.outerDayGrey {
+		background: #e9e6e6 !important;
+	}
+	.innerDay {
+		background: #fff;
+		
+		color: #000;
+	}
+	.innerDay {
+		clear: both;
+	}
+	.outerDay, .outerDayGrey {
+		font-size: .7em !important;
+	}
+	.outerDay, .outerDayGrey {
+		padding: 10px 0 !important;
+	}
+	.innerDay, .innerDayGrey {
+		font-size: .9em !important;
+		font-weight: bold !important;
+		padding: 15px 0;
+	}
+	table {
+		font-size: .85em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
