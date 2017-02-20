@@ -1,6 +1,6 @@
 # timesheet
 Online Tmesheet Application
-ollietinsley.com/timesheet/
+http://www.ollietinsley.com/timesheet/
 
 Responsive Timeshee Application
 Coldfusion/MySql back-end, Bootstrap/Jquery front-end.
