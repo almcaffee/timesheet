@@ -1,6 +1,6 @@
 <cftry>
 
-<cfquery name="q_alltime" datasource="">
+<cfquery name="q_alltime" datasource="proj">
     select *, DATE_FORMAT(date, '%Y-%m-%d') as dayformat
     from time
     where time.employeeid = '#url.employeeid#'
