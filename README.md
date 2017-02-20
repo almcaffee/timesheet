@@ -2,7 +2,7 @@
 Online Tmesheet Application
 ollietinsley.com/timesheet/
 
-Coldfusion/MySql based timesheet application
-
+Responsive Timeshee Application
+Coldfusion/MySql back-end, Bootstrap/Jquery front-end.
 
 I will be adding comments soon although I haven't had time to standardize the CSS.
